@@ -1,0 +1,22 @@
+{
+  "name": "intimation/catalyst-enqueues",
+  "type": "library",
+  "description": "Catalyst element to load WordPress theme scripts and stylesheets through configuration.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Craig Simpson",
+      "homepage": "https://intimation.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Intimation\\Catalyst\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "intimation/catalyst": "@dev"
+  }
+}
