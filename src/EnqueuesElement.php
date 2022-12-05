@@ -18,7 +18,7 @@ class EnqueuesElement extends Element
         }
 
         if (array_key_exists(self::STYLES, $this->config)) {
-            add_action('wp_enqueue_scripts', [$this, 'process_styles']);
+            add_action('wp_enqueue_scripts', [$this, 'process_styles'], 5);
         }
 
         if (array_key_exists(self::EDITOR_SCRIPTS, $this->config)) {
